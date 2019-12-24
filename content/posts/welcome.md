@@ -2,6 +2,7 @@
 date        = "2019-12-17"
 title       = "Welcome"
 description = "First post"
+comments    = true
 +++
 
 Well, never it's too late for beginning new paths, and what I'm doing today is to start a new one. As I have never considered myself an expert on any topic, my idea is to expose my thoughts in posts and the value of this blog will be the comments provided by all you.
