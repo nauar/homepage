@@ -2,6 +2,10 @@ baseurl = "https://nauar.info/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 disqusShortname = "nauar"
+paginate = 10
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
 enableRobotsTXT = true
 enableEmoji     = true
@@ -28,8 +32,8 @@ disableHugoGeneratorInject = false
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
 
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  enableSharingButtons = true
+  justifyContent = true
 
   # Social icons
   [[params.social]]
@@ -43,7 +47,7 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/arnauoncins"
-    
+
 [languages]
   [languages.en]
     title = "Deep dive"
