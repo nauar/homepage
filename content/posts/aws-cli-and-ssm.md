@@ -19,7 +19,7 @@ This may seem a bit excentric. However, the reason behind this weird habit is th
 
 I want to show a way of installing [AWS CLI v2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) and its [Session Manager plugin](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html).
 
-By clicking on these links, you will find instructions to install both of them. If you want to install them in a portable way, you will find very easily an AWS CLI v2 binary. I even created an [installer/updater script](https://gist.github.com/nauar/c628a15ecb7db608edcdbfc8c543fa22). However, the Session Manager plugin looks like harder to install in this way as it is only available in a Debian-like (.deb) or RedHat-like (.rpm) package.
+By clicking on these links, you will find instructions to install both of them. If you want to install them in a portable way, you will find very easily an AWS CLI v2 binary. However, the Session Manager plugin looks like harder to install in this way as it is only available in a Debian-like (.deb) or RedHat-like (.rpm) package.
 
 At the end of the day, the Session Manager plugin it's another binary. Thus, I thought it will be very likely to find this binary very easily inside any of these packages. I knew that .deb packages are pure Linux archives (you can handle them with `ar` command).
 
@@ -39,4 +39,4 @@ So, I did the following steps to obtain the executable from this package:
 
 4. In `./usr/local/sessionmanagerplugin/bin/` folder, you will find the binary executable. You can copy/move it to any folder in your path.
 
-This way, you can make use of AWS CLI v2 and its Session Manager plugin without having to use a Debian-like or a RedHat-like Linux distribution to use them in your system.
+This way, you can make use of AWS CLI v2 and its Session Manager plugin without having to use a Debian-like or a RedHat-like Linux distribution to use them in your system. You can find the scripts for updating both elements in the following [GitHub Gist](https://gist.github.com/nauar/c628a15ecb7db608edcdbfc8c543fa22).
