@@ -4,7 +4,7 @@ title: "Installing AWS cli v2 and Session Manager plugin in a portable way on Li
 date: "2021-03-29"
 description: "An alternative way of installing AWS cli v2 and its Session Manager plugin (portable way) on Linux"
 comments: true
-tags: ["aws", "cli", "ssm"]
+tags: ["aws", "aws-cli", "aws-ssm"]
 ---
 
 After more than a year not showing any activity here, I am retaking the blog. Some personal topics, in top of COVID-19 pandemia, made me abandon it for a long while.
