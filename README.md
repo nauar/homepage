@@ -1,2 +1,2 @@
 # homepage
-This is my [homepage](https://nauar.info/), powered by [HUGO](https://gohugo.io/) and using a theme made by [rhazdon](https://github.com/rhazdon).
+This is my [homepage](https://nauar.info/), powered by [HUGO](https://gohugo.io/) and using [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) theme.

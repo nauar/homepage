@@ -17,9 +17,9 @@ TocOpen: false
 
 ## Introduction
 
-In order to make all members of the development teams work in a standarized way, it's necessary to have a common understanding of the development process and the development tools and processes. One of them is the branching strategy.
+In order to make all members of the development teams work in a standarized way, it's necessary to have a common understanding of the release process and the development tools and processes. One of them is the branching strategy.
 
-The branching strategy defines not only how to structure the updates in the code base, it also defines the process to be followed to define how they are merged and released. Therefore, it impacts in the development and the release processes.
+The branching strategy does not only define how to structure the updates in the code base, but it also defines the process to be followed to define how they are merged and released. Therefore, it impacts in the development and the release processes.
 
 ## Branching Strategies
 
