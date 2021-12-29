@@ -1,13 +1,15 @@
-+++
-date        = "2019-12-17"
-title       = "Welcome"
-description = "First post"
-comments    = true
-+++
+---
+author: "Arnau Oncins"
+title: "Welcome"
+description: "First post"
+date: "2019-12-17"
+comments: true
+tags: ["about me"]
+---
 
 Well, never it's too late for beginning new paths, and what I'm doing today is to start a new one. As I have never considered myself an expert on any topic, my idea is to expose my thoughts in posts and the value of this blog will be the comments provided by all you.
 
-{{ <image src="/img/path.png" alt="A new path" position="center" style="border-radius: 8px; margin: 10px 0px" >}}
+![A new path](/img/path.png#center)
 
 What will be this blog about? IT world topics: architecture, DevOps, Cloud, Agile, design, QA, etc. So, first of all, let me to introduce myself.
 
