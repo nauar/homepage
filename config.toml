@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 disqusShortname = "nauar"
 paginate = 10
-
+title = "Deep Dive"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
@@ -25,7 +25,7 @@ disableHugoGeneratorInject = false
   disableReadOtherPosts = false
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Arnau Oncins, based in the theme created by Djordje Atlialp"
+  description = "Homepage and blog by Arnau Oncins, using the theme created by Djordje Atlialp"
   keywords = "homepage, blog, science, informatics, development, programming"
   images = ["/img/yo.png"]
 
@@ -34,6 +34,7 @@ disableHugoGeneratorInject = false
 
   enableSharingButtons = true
   justifyContent = true
+  homeSubtitle = "Arnau Oncins' thoughts"
 
   # Social icons
   [[params.social]]
@@ -48,6 +49,11 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/arnauoncins"
 
+#[taxonomies]
+#  category = "blog"
+#  tag      = "tags"
+#  series   = "series"
+
 [languages]
   [languages.en]
     title = "Deep dive"
@@ -56,7 +62,7 @@ disableHugoGeneratorInject = false
     keywords = ""
     copyright = "<a href='https://github.com/nauar' target='_blank'>Arnau Oncins</a>"
     readOtherPosts = "Read other posts"
-
+    
 
     [languages.en.params.logo]
       logoText = "rm -rf /"

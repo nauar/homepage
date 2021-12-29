@@ -11,7 +11,7 @@ Created in 2008 by Patrick Debois and Andrew Shafer, this term began to be commo
 
 Associated to the definitions you may find, there is an image that you will see. An image very similar to this one hereunder:
 
-{{< image src="/img/devops.png" alt="DevOps lifecycle" position="center" style="border-radius: 8px; margin: 10px 0px" >}}
+{{ <image src="/img/devops.png" alt="DevOps lifecycle" position="center" style="border-radius: 8px; margin: 10px 0px" >}}
 
 This image represents the DevOps lifecycle. In fact, the key of DevOps it's not its lifecycle itself. This lifecycle already existed some years ago before DevOps appearance, even the monitoring stage. The essential point of DevOps is how short it can be and the low number of times (or 0 times, depending on the DevOps maturity adoption) you are forced to release in a "special" way, following a different flow.
 
@@ -23,7 +23,7 @@ In my experience, I've seen lots of departments and enterprises adopt DevOps in 
 2. Processes
 3. Technology
 
-{{< image src="/img/devops_layers.png" alt="DevOps layers" position="center" style="border-radius: 8px; margin: 10px 0px" >}}
+{{ <image src="/img/devops_layers.png" alt="DevOps layers" position="center" style="border-radius: 8px; margin: 10px 0px" >}}
 
 A DevOps adoption should always follow this order. First, define the culture, an aligned objective with all the stakeholders, what every stakeholder wants the enterprise to become, what's everyone's vision of a DevOps company, even establish the stakeholder roles to be involved in it.
 
