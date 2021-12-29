@@ -44,7 +44,7 @@ To illustrate the previous explanations above, let me grab some exampes form Mic
 
 As it most cases, there is not a silver-bullet option that can be applied in all situations. It depends on the context. I have seen successful setups in the open source world using single-branching methodologies. However, there are also enterprise projects that work well with multi-branching methodologies (not so many, though).
 
-## General recomendation
+## General recommendation
 
 **Trunk-based branching** is a branching methodology that allows accelerating continuous integration loop and decreasing lead time to production. It improves the continuous integration and continuous delivery loops avoiding the merge-hell situations. For achieve its implementation, the trustfulness constraint must be respected and the development teams must be able to use **feature flags** (also known as **feature toggles**). **Note**: I will dedicate a post for feature flags.
 
