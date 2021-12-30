@@ -36,7 +36,7 @@ A multi-branching strategy provides strict controls and ease the collaboration w
 
 A single-branching strategy provides a direct way of implementing and integrating changes and it removes all this bureaucracy. Nonetheless, it requires a sufficient trustfulness among the members of development teams, having to perform only one single merge to the mainline. In top of this constraint, it is necessary to provide a way of enabling and disabling features that are still on development or not planned to be shipped to production, such as **feature flags** in **trunk-based branching**. Even so, single-branching strategies improve the productivity of the development teams, due to the reduction of the number of merges (remember that the time dedicated to merge code from different branches is not development productive time).
 
-To illustrate the previous explanations above, let me grab some exampes form Microsoft [3]:
+To illustrate the previous explanations above, let me grab some examples form Microsoft [3]:
 
 ![Typical merge related problem in a multi-branching setup](/img/multibranching.png#center) **Figure 1**: Typical merge related problem in a multi-branching setup.
 
@@ -46,7 +46,18 @@ As it most cases, there is not a silver-bullet option that can be applied in all
 
 ## General recommendation
 
-**Trunk-based branching** is a branching methodology that allows accelerating continuous integration loop and decreasing lead time to production. It improves the continuous integration and continuous delivery loops avoiding the merge-hell situations. For achieve its implementation, the trustfulness constraint must be respected and the development teams must be able to use **feature flags** (also known as **feature toggles**). **Note**: I will dedicate a post for feature flags.
+### Adopt trunk-based branching when possible
+
+**Trunk-based branching** is a branching methodology that allows accelerating continuous integration loop and decreasing lead time to production. It improves the continuous integration and continuous delivery loops and avoids merge-hell situations. To achieve its implementation, the trustfulness constraint must be respected and the development teams must be able to use **feature flags** (also known as **feature toggles**). **Note**: I will dedicate a post for feature flags.
+
+### Merge frequently from/to master
+
+**Merge complexity** grows exponentially over time. Experience shows that merges behave very well when they are performed often:
+
+* The likelihood of conflicts appearance is dramatically reduced.
+* When conflicts appear, they are quite smaller and much easier to solve.
+
+When developing a feature, **merge from master frequently** to get the latest updates from your teammates. Using **feature toggles** allows merging in-mid developement features to master/main branch, so these updates can be bidirectional. Thus, **merge to master frequently** too.
 
 ## References
 
